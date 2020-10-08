@@ -36,5 +36,8 @@
       "ui5-middleware-cfdestination",
       "ui5-task-zipper"
     ]
+  },
+  "dependencies": {
+    "mta": "^0.1.6"
   }
 }

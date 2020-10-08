@@ -8,7 +8,22 @@
       "version": "1.0.0"
     },
     "title": "{{appTitle}}",
-    "description": "{{appDescription}}"
+    "description": "{{appDescription}}",
+    "crossNavigation": {
+      "inbounds": {
+        "intent1": {
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          },
+          "semanticObject": "uimodule",
+          "action": "display",
+          "title": "Shipment App",
+          "description": "Novigo Integrated Logistics : Shipment App",
+          "icon": "sap-icon://shipping-status"
+        }
+      }
+    }
   },
   "sap.ui": {
     "technology": "UI5",
